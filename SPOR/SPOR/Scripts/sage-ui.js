@@ -1,9 +1,10 @@
 ﻿//SAGE UI JavaScript
 
 $(function () {
-    $(".datepicker").datepicker();
-});
 
-$(function () {
-    $('.sage-button').button();
+    $(".datepicker").datepicker();
+
+    $('.sage-btn').button();
+
+    $('.tooltip').tooltip();
 });

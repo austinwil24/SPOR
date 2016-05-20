@@ -1,9 +1,38 @@
 ﻿body.sage {
-    margin: 50px;
     font: "Trebuchet MS", sans-serif, bold;
     font-size: large;
     background-color: black;
     color: white;
+}
+
+hr.sage {
+    border-color: #9fda58;
+    border-style: solid;
+    box-shadow: white 0 5px;
+}
+
+body.sage input,
+.navbar-nav.sage li a {
+    color: black;
+}
+
+.sage-title {
+    margin-top: 30px;
+    color: #9fda58;
+}
+
+p.sage-paragraph::first-letter {
+    color: #9fda58;
+    font-size: 45px;
+}
+
+p.sage-paragraph a {
+    color: #9fda58;
+}
+
+p.sage-paragraph a:hover, 
+p.sage-paragraph a:visited {
+    color: #55FFFE;
 }
 
 .sage.navbar-brand {
@@ -22,5 +51,22 @@
 }
 
 #sagelogo {
+    height: 50px;
+    width: 70px;
+    cursor: pointer;
+    color: black;
+    -webkit-transition: width 0.5s, height 0.5s;
+    transition: width 0.5s, height 0.5s;
+}
 
+#sagelogo:hover {
+    height: 65px;
+    width: 85px;
+    -webkit-filter: invert(100);
+    filter: invert(100);
+}
+
+.navbar-nav.sage a:hover {
+    color: white;
+    text-shadow: black -1px -1px;
 }

@@ -11,7 +11,7 @@
     @Styles.Render("~/Content/sagecss")
 </head>
 <body class="sage">
-    <div class="navbar navbar-inverse navbar-fixed-top ui-widget-header">
+    <div class="navbar navbar-inverse navbar-fixed-top ui-widget-header" style="margin: 0 0 0 0">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -23,29 +23,29 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <div class="navbar-brand sage">
-                    <span class="glyphicon glyphicon-asterisk"></span>
+                <div class="navbar-brand sage" onclick="location.href='/'">
+                    <img id="sagelogo" title="Home page" src="~/Content/images/SageLogo_Empty.png" />
+                    @*<span id="sagelogo" class="glyphicon glyphicon-asterisk"></span>*@
                 </div>
-                @*@Html.ActionLink(" ", "Index", "Home", new { area = "" }, new { @class = "nabglyphicon glyphicon-asterisk" })*@
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("About Me", "Index", "Home", new { @style = "color: black" })</li>
-                    <li>@Html.ActionLink("Games", "Index", "Home", new { @style = "color: black" })</li>
-                    <li>@Html.ActionLink("Books", "Index", "Home", new { @style = "color: black" })</li>
-                    <li>@Html.ActionLink("Flora", "Index", "Home", new { @style = "color: black" })</li>
-                    <li>@Html.ActionLink("Fauna", "Index", "Home", new { @style = "color: black" })</li>
-                    <li>@Html.ActionLink("Contact", "Index", "Home", new { @style = "color: black" })</li>
-                    <li>@Html.ActionLink("Other", "Index", "Home", new { @style = "color: black" })</li>
+                <ul class="nav navbar-nav sage">
+                    <li>@Html.ActionLink("About Me", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Games", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Books", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Flora", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Fauna", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Other", "Index", "Home")</li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="container body-content">
         @RenderBody()
-        <hr />
+        <hr class="sage" />
         <footer>
-            <p>&copy; 2016 - A.J.W.</p>
+            <p class="h1 sage-paragraph">&copy; 2016 - A.J.W.</p>
         </footer>
     </div>
     @Scripts.Render("~/bundles/jquery")
