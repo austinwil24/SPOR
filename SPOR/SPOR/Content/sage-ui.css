@@ -1,0 +1,26 @@
+﻿body.sage {
+    margin: 50px;
+    font: "Trebuchet MS", sans-serif, bold;
+    font-size: large;
+    background-color: black;
+    color: white;
+}
+
+.sage.navbar-brand {
+  float: left;
+  padding: 0 20px 10px 0;
+  font-size: 50px;
+  line-height: 0;
+}
+
+.sage-major header {
+    margin-top: 2em;
+}
+
+.sage-minor header {
+    margin-top: 1em;
+}
+
+#sagelogo {
+
+}
