@@ -34,8 +34,6 @@ namespace SPOR
                     "~/Content/site.css"));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/jquerybasecss").Include(
-                    "~/Content/themes/base/all.css",
-                    "~/Content/themes/base/base.css",
                     "~/Content/themes/base/core.css",
                     "~/Content/themes/base/accordion.css",
                     "~/Content/themes/base/autocomplete.css",
