@@ -14,6 +14,9 @@ hr.sage {
 body.sage input,
 .navbar-nav.sage li a {
     color: black;
+    padding-left: 70px;
+    -webkit-transition: width 1s, height 1s;
+    /*transition: width 1s, height 1s;*/
 }
 
 .sage-title {
@@ -30,17 +33,10 @@ p.sage-paragraph a {
     color: #9fda58;
 }
 
-p.sage-paragraph a:hover, 
-p.sage-paragraph a:visited {
-    color: #55FFFE;
-}
-
-.sage.navbar-brand {
-  float: left;
-  padding: 0 20px 10px 0;
-  font-size: 50px;
-  line-height: 0;
-}
+    p.sage-paragraph a:hover,
+    p.sage-paragraph a:visited {
+        color: #55FFFE;
+    }
 
 .sage-major header {
     margin-top: 2em;
@@ -51,20 +47,14 @@ p.sage-paragraph a:visited {
 }
 
 #sagelogo {
-    height: 50px;
-    width: 70px;
+    background: url("images/SageLogo_Thumbnail.png") no-repeat 60px 50px;
+    width: 60px;
     cursor: pointer;
-    color: black;
-    -webkit-transition: width 0.5s, height 0.5s;
-    transition: width 0.5s, height 0.5s;
 }
 
-#sagelogo:hover {
-    height: 65px;
-    width: 85px;
-    -webkit-filter: invert(100);
-    filter: invert(100);
-}
+    #sagelogo:hover {
+        background-image: url("images/SageLogo_Inverted_Thumbnail.png");
+    }
 
 .navbar-nav.sage a:hover {
     color: white;
