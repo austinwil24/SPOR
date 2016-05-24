@@ -13,10 +13,8 @@ hr.sage {
 
 body.sage input,
 .navbar-nav.sage li a {
-    color: black;
     padding-left: 70px;
-    -webkit-transition: width 1s, height 1s;
-    /*transition: width 1s, height 1s;*/
+    color: black;
 }
 
 .sage-title {
@@ -47,16 +45,26 @@ p.sage-paragraph a {
 }
 
 #sagelogo {
-    background: url("images/SageLogo_Thumbnail.png") no-repeat 60px 50px;
-    width: 60px;
-    cursor: pointer;
+    background: url("images/SageLogo_Thumbnail.png") no-repeat round;
+    width: 50px;
 }
 
     #sagelogo:hover {
-        background-image: url("images/SageLogo_Inverted_Thumbnail.png");
+        background-image: url("images/SageLogo_Highlighted_Thumbnail.png");
+        cursor: pointer;
+    }
+
+    #sagelogo.current {
+        background-image: url("images/SageLogo_Current_Thumbnail.png");
+        cursor: default;
     }
 
 .navbar-nav.sage a:hover {
     color: white;
+    text-shadow: black -1px -1px;
+}
+
+.navbar-nav.sage a.current {
+    background-image: url("images/SageLogo_Highlighted_Thumbnail.png");
     text-shadow: black -1px -1px;
 }

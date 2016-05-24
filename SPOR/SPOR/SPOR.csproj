@@ -131,7 +131,8 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\images\SageLogo_Inverted_Thumbnail.png" />
+    <Content Include="Content\images\SageLogo_Current_Thumbnail.png" />
+    <Content Include="Content\images\SageLogo_Highlighted_Thumbnail.png" />
     <Content Include="Content\images\SageLogo_Thumbnail.png" />
     <Content Include="Content\sage-ui.css" />
     <Content Include="Content\themes\base\accordion.css" />
