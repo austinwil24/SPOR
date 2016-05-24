@@ -13,9 +13,20 @@ hr.sage {
 
 body.sage input,
 .navbar-nav.sage li a {
-    padding-left: 70px;
+    padding-left: 50px;
     color: black;
 }
+
+    .navbar-nav.sage li a:hover {
+        color: white;
+        text-shadow: black -1px -1px;
+    }
+
+    .navbar-nav.sage li a.current {
+        color: orange;
+        text-shadow: black -1px -1px;
+        cursor: default;
+    }
 
 .sage-title {
     margin-top: 30px;
@@ -58,13 +69,3 @@ p.sage-paragraph a {
         background-image: url("images/SageLogo_Current_Thumbnail.png");
         cursor: default;
     }
-
-.navbar-nav.sage a:hover {
-    color: white;
-    text-shadow: black -1px -1px;
-}
-
-.navbar-nav.sage a.current {
-    background-image: url("images/SageLogo_Highlighted_Thumbnail.png");
-    text-shadow: black -1px -1px;
-}
