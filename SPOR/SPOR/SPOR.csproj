@@ -241,6 +241,7 @@
     <Content Include="Views\Games\Index.cshtml" />
     <Content Include="Views\Other\Index.cshtml" />
     <Content Include="Views\Flora\Tillandsia.cshtml" />
+    <Content Include="Views\Flora\Bonsai.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

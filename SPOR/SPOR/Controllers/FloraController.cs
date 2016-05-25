@@ -18,5 +18,10 @@ namespace SPOR.Controllers
         {
             return View();
         }
+
+        public ActionResult Bonsai()
+        {
+            return View();
+        }
     }
 }
