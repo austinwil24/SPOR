@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Tillandsia Collection";
+}
+
+<div>
+    <p style="margin-top: 25px">
+        <span class="h1 sage-title">@ViewBag.Title</span>
+    </p>
+</div>
+<hr class="sage" />
+
+<p></p>
+
+<div class="row center-block">
+    @for (int i = 0; i < 5; i++)
+    {
+        <div class="img">
+            <div class="desc">Tectorum</div>
+            <a href="/Content/images/flora/tillandsia/tillandsia_tectorum.png" target="_blank">
+                <img src="~/Content/images/flora/tillandsia/tillandsia_tectorum.png"
+                     alt="Tectorum">
+            </a>
+        </div>
+    }
+</div>
+
+@*<div class="">
+    <div class="sage-btn" onclick="location.href='@Html.Action("Index", "Flora")'">
+        <span>Back to Flora</span>
+    </div>
+</div>*@

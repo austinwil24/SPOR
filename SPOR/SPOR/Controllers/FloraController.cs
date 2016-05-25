@@ -13,5 +13,10 @@ namespace SPOR.Controllers
         {
             return View();
         }
+
+        public ActionResult Tillandsia()
+        {
+            return View();
+        }
     }
 }

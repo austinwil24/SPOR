@@ -138,8 +138,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\images\SageLogo_Current_Thumbnail.png" />
-    <Content Include="Content\images\SageLogo_Highlighted_Thumbnail.png" />
+    <Content Include="Content\images\flora\tillandsia\tillandsia_tectorum.png" />
     <Content Include="Content\images\SageLogo_Thumbnail.png" />
     <Content Include="Content\sage-ui.css" />
     <Content Include="Content\themes\base\accordion.css" />
@@ -241,6 +240,7 @@
     <Content Include="Views\Flora\Index.cshtml" />
     <Content Include="Views\Games\Index.cshtml" />
     <Content Include="Views\Other\Index.cshtml" />
+    <Content Include="Views\Flora\Tillandsia.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

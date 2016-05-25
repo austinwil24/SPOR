@@ -56,16 +56,58 @@ p.sage-paragraph a {
 }
 
 #sagelogo {
-    background: url("images/SageLogo_Thumbnail.png") no-repeat round;
     width: 50px;
+    height: 50px;
+    background: url("images/SageLogo_Thumbnail.png") 100px 0;
 }
 
     #sagelogo:hover {
-        background-image: url("images/SageLogo_Highlighted_Thumbnail.png");
+        background: url("images/SageLogo_Thumbnail.png") 0 0;
         cursor: pointer;
     }
 
     #sagelogo.current {
-        background-image: url("images/SageLogo_Current_Thumbnail.png");
+        background: url("images/SageLogo_Thumbnail.png") 50px 0;
         cursor: default;
     }
+
+div.img {
+    margin: 5px;
+    border: 2px solid white;
+    float: left;
+    width: 218px;
+}
+
+    div.img:hover {
+        border: 4px solid white;
+        box-shadow: #9fda58 -5px -5px;
+    }
+
+    div.img img {
+        width: 100%;
+        height: 100%;
+    }
+
+div.desc {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 15px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    color: black;
+}
+
+.media-heading.sage {
+    color: #9fda58;
+}
+
+.media.sage div.media-left a img.media-object {
+    width: 125px;
+    height: 125px;
+    border: 1px solid #9fda58;
+}
+
+.sage-btn {
+    display: flexbox;
+}
