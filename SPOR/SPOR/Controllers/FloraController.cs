@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SPOR.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,17 +12,17 @@ namespace SPOR.Controllers
         // GET: Flora
         public ActionResult Index()
         {
-            return View();
+            return View(new GenericPageModel("Flora"));
         }
 
         public ActionResult Tillandsia()
         {
-            return View();
+            return View(new GenericPageModel("Tillandsia Collection"));
         }
 
         public ActionResult Bonsai()
         {
-            return View();
+            return View(new GenericPageModel("Bonsai"));
         }
     }
 }

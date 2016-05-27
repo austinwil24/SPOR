@@ -38,12 +38,12 @@ p.sage-paragraph::first-letter {
     font-size: 45px;
 }
 
-p.sage-paragraph a {
+body.sage p a {
     color: #9fda58;
 }
 
-    p.sage-paragraph a:hover,
-    p.sage-paragraph a:visited {
+    body.sage p a:hover,
+    body.sage p a:visited {
         color: #55FFFE;
     }
 

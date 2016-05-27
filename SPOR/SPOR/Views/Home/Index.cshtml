@@ -1,11 +1,13 @@
-﻿@{
-    ViewBag.Title = "Austin Wilson";
+﻿@model SPOR.Models.GenericPageModel
+
+@{
+    ViewBag.Title = Model.Title;
 }
 
 <div>
     <p style="margin-top: 25px">
-        <span class="h1 sage-title">Austin Wilson</span>
-        <span class="h3">- Senior Software Engineer</span>
+        <span class="h1 sage-title">@ViewBag.Title</span>
+        <span class="h3">@ViewBag.TitleExtension</span>
     </p>
 </div>
 <hr class="sage" />

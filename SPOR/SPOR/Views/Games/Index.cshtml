@@ -1,3 +1,18 @@
-﻿@{
-    ViewBag.Title = "Games";
+﻿@model SPOR.Models.GenericPageModel
+
+@{
+    ViewBag.Title = Model.Title;
 }
+
+<div>
+    <p style="margin-top: 25px">
+        <span class="h1 sage-title">@ViewBag.Title</span>
+    </p>
+</div>
+<hr class="sage" />
+
+<p>Below is a list of game concepts to working titles I am working on.</p>
+
+<p class="h1">
+    <a href="@Url.Action("OceanOnslaught", "Games")">Ocean Onslaught</a>
+</p>

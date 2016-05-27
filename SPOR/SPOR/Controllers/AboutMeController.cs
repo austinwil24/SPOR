@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using SPOR.Models;
 using System.Web.Mvc;
 
 namespace SPOR.Controllers
@@ -11,7 +8,7 @@ namespace SPOR.Controllers
         // GET: AboutMe
         public ActionResult Index()
         {
-            return View();
+            return View(new GenericPageModel("About Me"));
         }
     }
 }

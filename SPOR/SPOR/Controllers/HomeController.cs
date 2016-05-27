@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using SPOR.Models;
 using System.Web.Mvc;
 
 namespace SPOR.Controllers
@@ -10,7 +7,7 @@ namespace SPOR.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View(new GenericPageModel("Austin Wilson") { TitleExtension = "- Software Engineer" });
         }
     }
 }
