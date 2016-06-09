@@ -133,6 +133,7 @@
     </Compile>
     <Compile Include="Models\GenericPageModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\IO.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -244,9 +245,13 @@
     <Content Include="Views\Flora\Tillandsia.cshtml" />
     <Content Include="Views\Flora\Bonsai.cshtml" />
     <Content Include="Views\Games\OceanOnslaught.cshtml" />
+    <Content Include="Views\Fauna\PhotoCollection.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\images\fauna\FreshwaterPlantedFluvalSpec5\" />
+    <Folder Include="Content\images\fauna\ReefNUVOFusion20\" />
+    <Folder Include="Content\images\flora\bonsai\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

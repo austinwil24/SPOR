@@ -1,4 +1,6 @@
-﻿namespace SPOR.Models
+﻿using System.Collections.Generic;
+
+namespace SPOR.Models
 {
     public class GenericPageModel
     {

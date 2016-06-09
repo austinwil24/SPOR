@@ -1,0 +1,32 @@
+﻿@model SPOR.Controllers.PhotoCollection
+
+@{
+    ViewBag.Title = Model.Title;
+}
+
+<div>
+    <p style="margin-top: 25px">
+        <span class="h1 sage-title">@ViewBag.Title</span>
+    </p>
+</div>
+<hr class="sage" />
+
+<p></p>
+
+<div class="row center-block">
+    @foreach (var path in Model.ImagePaths)
+    {
+        <div class="img">
+            <div class="desc">
+                @Path.GetFileNameWithoutExtension(path)
+            </div>
+            <a href="@path" target="_blank">
+                <img src="@path">
+            </a>
+        </div>
+    }
+</div>
+
+<br />
+
+<div class="sage-btn" style="display: block; margin: 0 auto; width: 180px" onclick="location.href='@Url.Action("Index", "Fauna")'">Back to Fauna</div>
